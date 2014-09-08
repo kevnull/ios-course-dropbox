@@ -207,7 +207,7 @@
         <!--Sign In Root Controller-->
         <scene sceneID="GRG-SB-ChC">
             <objects>
-                <viewController id="LBX-sD-TED" customClass="SignInRootController" sceneMemberID="viewController">
+                <viewController id="LBX-sD-TED" customClass="SignInRootController" customModule="ios_course_dropbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MbY-yz-Zdy">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -240,16 +240,13 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="mMy-tT-5JJ" kind="modal" animates="NO" id="DsG-9o-AAe"/>
+                                    <segue destination="mMy-tT-5JJ" kind="modal" identifier="signInSegue" animates="NO" id="Lpk-p6-xUi"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="7ql-kj-jC6"/>
-                    <connections>
-                        <segue destination="mMy-tT-5JJ" kind="modal" identifier="signInSegue" animates="NO" id="cRi-2a-oDx"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hPq-Xh-jTO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -293,7 +290,7 @@
         </simulatedScreenMetrics>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="ObG-6r-NUw"/>
-        <segue reference="mqe-Ty-uv1"/>
+        <segue reference="9bW-n2-pOn"/>
+        <segue reference="Lpk-p6-xUi"/>
     </inferredMetricsTieBreakers>
 </document>
