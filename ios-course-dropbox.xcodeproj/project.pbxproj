@@ -12,6 +12,8 @@
 		88EB5C0E19BD9284006D54CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EB5C0C19BD9284006D54CF /* Main.storyboard */; };
 		88EB5C1019BD9284006D54CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EB5C0F19BD9284006D54CF /* Images.xcassets */; };
 		88EB5C1C19BD9284006D54CF /* ios_course_dropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EB5C1B19BD9284006D54CF /* ios_course_dropboxTests.swift */; };
+		88EB5C2619BD9999006D54CF /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EB5C2519BD9999006D54CF /* CreateAccountRootViewController.swift */; };
+		88EB5C2819BD9D3C006D54CF /* SignInRootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EB5C2719BD9D3C006D54CF /* SignInRootController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 		88EB5C1519BD9284006D54CF /* ios-course-dropboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-course-dropboxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88EB5C1A19BD9284006D54CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88EB5C1B19BD9284006D54CF /* ios_course_dropboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_course_dropboxTests.swift; sourceTree = "<group>"; };
+		88EB5C2519BD9999006D54CF /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
+		88EB5C2719BD9D3C006D54CF /* SignInRootController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 				88EB5C0819BD9284006D54CF /* AppDelegate.swift */,
 				88EB5C0A19BD9284006D54CF /* ViewController.swift */,
 				88EB5C0C19BD9284006D54CF /* Main.storyboard */,
+				88EB5C2519BD9999006D54CF /* CreateAccountRootViewController.swift */,
+				88EB5C2719BD9D3C006D54CF /* SignInRootController.swift */,
 				88EB5C0F19BD9284006D54CF /* Images.xcassets */,
 				88EB5C0619BD9284006D54CF /* Supporting Files */,
 			);
@@ -208,6 +214,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88EB5C2619BD9999006D54CF /* CreateAccountRootViewController.swift in Sources */,
+				88EB5C2819BD9D3C006D54CF /* SignInRootController.swift in Sources */,
 				88EB5C0B19BD9284006D54CF /* ViewController.swift in Sources */,
 				88EB5C0919BD9284006D54CF /* AppDelegate.swift in Sources */,
 			);
