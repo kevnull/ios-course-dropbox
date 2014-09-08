@@ -11,6 +11,7 @@
 		88376A6B19BDA6FE0068BD7A /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88376A6A19BDA6FE0068BD7A /* TermsViewController.swift */; };
 		88376A6D19BDABA40068BD7A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88376A6C19BDABA40068BD7A /* SettingsViewController.swift */; };
 		8885D36F19BDAE1B004BF44D /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8885D36E19BDAE1B004BF44D /* ForgotPasswordViewController.swift */; };
+		8885D37119BE32D1004BF44D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8885D37019BE32D1004BF44D /* SignInViewController.swift */; };
 		88EB5C0919BD9284006D54CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EB5C0819BD9284006D54CF /* AppDelegate.swift */; };
 		88EB5C0B19BD9284006D54CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EB5C0A19BD9284006D54CF /* ViewController.swift */; };
 		88EB5C0E19BD9284006D54CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EB5C0C19BD9284006D54CF /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 		88376A6A19BDA6FE0068BD7A /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 		88376A6C19BDABA40068BD7A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		8885D36E19BDAE1B004BF44D /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		8885D37019BE32D1004BF44D /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		88EB5C0319BD9284006D54CF /* ios-course-dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-course-dropbox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88EB5C0719BD9284006D54CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88EB5C0819BD9284006D54CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				88EB5C0819BD9284006D54CF /* AppDelegate.swift */,
 				88EB5C0A19BD9284006D54CF /* ViewController.swift */,
 				88EB5C0C19BD9284006D54CF /* Main.storyboard */,
+				8885D37019BE32D1004BF44D /* SignInViewController.swift */,
 				8885D36E19BDAE1B004BF44D /* ForgotPasswordViewController.swift */,
 				88376A6C19BDABA40068BD7A /* SettingsViewController.swift */,
 				88376A6A19BDA6FE0068BD7A /* TermsViewController.swift */,
@@ -231,6 +234,7 @@
 				88EB5C2619BD9999006D54CF /* CreateAccountRootViewController.swift in Sources */,
 				88376A6D19BDABA40068BD7A /* SettingsViewController.swift in Sources */,
 				88EB5C2819BD9D3C006D54CF /* SignInRootController.swift in Sources */,
+				8885D37119BE32D1004BF44D /* SignInViewController.swift in Sources */,
 				88EB5C0B19BD9284006D54CF /* ViewController.swift in Sources */,
 				88376A6B19BDA6FE0068BD7A /* TermsViewController.swift in Sources */,
 				88EB5C0919BD9284006D54CF /* AppDelegate.swift in Sources */,

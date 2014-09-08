@@ -1,5 +1,5 @@
 //
-//  SettingsViewController.swift
+//  SignInViewController.swift
 //  ios-course-dropbox
 //
 //  Created by Kevin Cheng on 9/8/14.
@@ -8,16 +8,11 @@
 
 import UIKit
 
-class SettingsViewController: UIViewController {
-
-    @IBOutlet weak var scrollView: UIScrollView!
-    @IBOutlet weak var signOutButton: UIButton!
+class SignInViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        scrollView.contentSize = CGSize(width:320, height:772)
-        signOutButton.frame.origin.y = 692
-//        scrollView.contentOffset.y = -100
+
         // Do any additional setup after loading the view.
     }
 
@@ -26,6 +21,9 @@ class SettingsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func OnButton(sender: AnyObject) {
+        navigationController?.popViewControllerAnimated(true)
+    }
 
     /*
     // MARK: - Navigation
