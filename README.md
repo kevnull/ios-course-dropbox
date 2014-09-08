@@ -1,5 +1,7 @@
 # iOS for Designers Assignment 1: Dropbox
 
+<img src="https://github.com/kevnull/ios-course-dropbox/blob/master/dropbox.gif"/>
+
 ## Required stories completed
 
 * Welcome tour
