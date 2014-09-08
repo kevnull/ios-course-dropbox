@@ -12,9 +12,11 @@
 		88376A6D19BDABA40068BD7A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88376A6C19BDABA40068BD7A /* SettingsViewController.swift */; };
 		8885D36F19BDAE1B004BF44D /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8885D36E19BDAE1B004BF44D /* ForgotPasswordViewController.swift */; };
 		8885D37119BE32D1004BF44D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8885D37019BE32D1004BF44D /* SignInViewController.swift */; };
+		8885D37319BE6244004BF44D /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8885D37219BE6244004BF44D /* WelcomeViewController.swift */; };
+		8885D37619BE63B2004BF44D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8885D37419BE63B2004BF44D /* Main.storyboard */; };
+		8885D37819BE6500004BF44D /* TourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8885D37719BE64FF004BF44D /* TourViewController.swift */; };
 		88EB5C0919BD9284006D54CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EB5C0819BD9284006D54CF /* AppDelegate.swift */; };
 		88EB5C0B19BD9284006D54CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EB5C0A19BD9284006D54CF /* ViewController.swift */; };
-		88EB5C0E19BD9284006D54CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88EB5C0C19BD9284006D54CF /* Main.storyboard */; };
 		88EB5C1019BD9284006D54CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88EB5C0F19BD9284006D54CF /* Images.xcassets */; };
 		88EB5C1C19BD9284006D54CF /* ios_course_dropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EB5C1B19BD9284006D54CF /* ios_course_dropboxTests.swift */; };
 		88EB5C2619BD9999006D54CF /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EB5C2519BD9999006D54CF /* CreateAccountRootViewController.swift */; };
@@ -37,11 +39,13 @@
 		88376A6C19BDABA40068BD7A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		8885D36E19BDAE1B004BF44D /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		8885D37019BE32D1004BF44D /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		8885D37219BE6244004BF44D /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		8885D37519BE63B2004BF44D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8885D37719BE64FF004BF44D /* TourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourViewController.swift; sourceTree = "<group>"; };
 		88EB5C0319BD9284006D54CF /* ios-course-dropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-course-dropbox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88EB5C0719BD9284006D54CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88EB5C0819BD9284006D54CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88EB5C0A19BD9284006D54CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		88EB5C0D19BD9284006D54CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88EB5C0F19BD9284006D54CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		88EB5C1519BD9284006D54CF /* ios-course-dropboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-course-dropboxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		88EB5C1A19BD9284006D54CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -91,13 +95,15 @@
 			children = (
 				88EB5C0819BD9284006D54CF /* AppDelegate.swift */,
 				88EB5C0A19BD9284006D54CF /* ViewController.swift */,
-				88EB5C0C19BD9284006D54CF /* Main.storyboard */,
+				8885D37219BE6244004BF44D /* WelcomeViewController.swift */,
 				8885D37019BE32D1004BF44D /* SignInViewController.swift */,
 				8885D36E19BDAE1B004BF44D /* ForgotPasswordViewController.swift */,
 				88376A6C19BDABA40068BD7A /* SettingsViewController.swift */,
 				88376A6A19BDA6FE0068BD7A /* TermsViewController.swift */,
 				88376A6819BDA1200068BD7A /* CreateAccountViewController.swift */,
 				88EB5C2519BD9999006D54CF /* CreateAccountRootViewController.swift */,
+				8885D37419BE63B2004BF44D /* Main.storyboard */,
+				8885D37719BE64FF004BF44D /* TourViewController.swift */,
 				88EB5C2719BD9D3C006D54CF /* SignInRootController.swift */,
 				88EB5C0F19BD9284006D54CF /* Images.xcassets */,
 				88EB5C0619BD9284006D54CF /* Supporting Files */,
@@ -210,8 +216,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88EB5C0E19BD9284006D54CF /* Main.storyboard in Resources */,
 				88EB5C1019BD9284006D54CF /* Images.xcassets in Resources */,
+				8885D37619BE63B2004BF44D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,8 +236,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8885D36F19BDAE1B004BF44D /* ForgotPasswordViewController.swift in Sources */,
+				8885D37319BE6244004BF44D /* WelcomeViewController.swift in Sources */,
 				88376A6919BDA1200068BD7A /* CreateAccountViewController.swift in Sources */,
 				88EB5C2619BD9999006D54CF /* CreateAccountRootViewController.swift in Sources */,
+				8885D37819BE6500004BF44D /* TourViewController.swift in Sources */,
 				88376A6D19BDABA40068BD7A /* SettingsViewController.swift in Sources */,
 				88EB5C2819BD9D3C006D54CF /* SignInRootController.swift in Sources */,
 				8885D37119BE32D1004BF44D /* SignInViewController.swift in Sources */,
@@ -260,10 +268,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		88EB5C0C19BD9284006D54CF /* Main.storyboard */ = {
+		8885D37419BE63B2004BF44D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				88EB5C0D19BD9284006D54CF /* Base */,
+				8885D37519BE63B2004BF44D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

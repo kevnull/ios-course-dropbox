@@ -1,44 +1,60 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6206.9" systemVersion="14A343f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6206.9" systemVersion="14A343f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="9gG-hO-ojG">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7026.1"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <!--Navigation Controller-->
+        <scene sceneID="mxK-s3-KJ8">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="ios_course_dropbox" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                <navigationController navigationBarHidden="YES" id="9gG-hO-ojG" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="862-71-bFn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ZU8-TW-d0S" kind="relationship" relationship="rootViewController" id="VFZ-kv-kAz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1bd-80-s29" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-284" y="368"/>
+        </scene>
+        <!--Welcome View Controller-->
+        <scene sceneID="Yko-iE-Nyj">
+            <objects>
+                <viewController id="ZU8-TW-d0S" customClass="WelcomeViewController" customModule="ios_course_dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kTW-Fl-5dt">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcome1" id="Z8g-vi-14V">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcome1" id="7fA-hp-Ffs">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="c4M-QR-mlX">
-                                <rect key="frame" x="258" y="0.0" width="62" height="568"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3V7-z3-oYH">
+                                <rect key="frame" x="170" y="0.0" width="150" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="8PS-zC-YeH" kind="modal" modalPresentationStyle="fullScreen" animates="NO" id="tsQ-pD-cqy"/>
+                                    <segue destination="8PS-zC-YeH" kind="push" id="DHe-dF-DxK"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="sYT-Gg-HcL"/>
+                    <navigationItem key="navigationItem" id="aGf-6u-kJ7"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SWR-h2-yDq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="162" y="368"/>
+            <point key="canvasLocation" x="148" y="368"/>
         </scene>
-        <!--View Controller-->
+        <!--Tour View Controller-->
         <scene sceneID="NAd-rP-qNL">
             <objects>
-                <viewController id="8PS-zC-YeH" customClass="ViewController" customModule="ios_course_dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8PS-zC-YeH" customClass="TourViewController" customModule="ios_course_dropbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UdD-sa-1DR">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -48,13 +64,23 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="0HA-LZ-9V4">
-                                <rect key="frame" x="258" y="0.0" width="62" height="568"/>
+                                <rect key="frame" x="173" y="0.0" width="147" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="ehc-34-Sw0" kind="modal" modalPresentationStyle="fullScreen" animates="NO" id="aY6-1V-IrE"/>
+                                    <segue destination="ehc-34-Sw0" kind="push" id="pye-me-uPm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="U0A-XD-UuC">
+                                <rect key="frame" x="0.0" y="0.0" width="147" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onButton:" destination="8PS-zC-YeH" eventType="touchUpInside" id="zMJ-V7-lXP"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -66,10 +92,10 @@
             </objects>
             <point key="canvasLocation" x="543" y="368"/>
         </scene>
-        <!--View Controller-->
+        <!--Tour View Controller-->
         <scene sceneID="3UR-GX-aIm">
             <objects>
-                <viewController id="ehc-34-Sw0" customClass="ViewController" customModule="ios_course_dropbox" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ehc-34-Sw0" customClass="TourViewController" customModule="ios_course_dropbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YDS-4M-8R9">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -85,7 +111,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="n9V-HD-zIa" kind="modal" animates="NO" id="5JI-s5-bOy"/>
+                                    <segue destination="n9V-HD-zIa" kind="modal" modalTransitionStyle="crossDissolve" id="DMr-pe-7ne"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aga-J6-sLK">
@@ -95,16 +121,24 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="PAB-zm-Z6L" kind="modal" animates="NO" id="y2D-pc-GhF"/>
+                                    <segue destination="PAB-zm-Z6L" kind="modal" modalTransitionStyle="crossDissolve" id="y2D-pc-GhF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Zw3-Bn-8QI">
+                                <rect key="frame" x="0.0" y="0.0" width="147" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onButton:" destination="8PS-zC-YeH" eventType="touchUpInside" id="meU-AY-Cb6"/>
+                                    <action selector="onButton:" destination="ehc-34-Sw0" eventType="touchUpInside" id="z3E-VH-74k"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="m2R-Vc-4ok"/>
-                    <connections>
-                        <outlet property="createAccountButton" destination="Ojb-sv-MJG" id="irC-7u-dUx"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f68-Om-8bb" sceneMemberID="firstResponder"/>
             </objects>
@@ -114,6 +148,7 @@
         <scene sceneID="Nxf-LX-rS9">
             <objects>
                 <navigationController navigationBarHidden="YES" id="n9V-HD-zIa" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="7mI-xE-hIy"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="VaD-dc-jDB">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -245,6 +280,7 @@
         <scene sceneID="M4k-Fm-M62">
             <objects>
                 <navigationController navigationBarHidden="YES" id="PAB-zm-Z6L" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="yuV-jM-XhC"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="vG6-ro-Bd0">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -1017,8 +1053,8 @@
         </simulatedScreenMetrics>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="9bW-n2-pOn"/>
-        <segue reference="jPx-jF-0Ww"/>
-        <segue reference="Lpk-p6-xUi"/>
+        <segue reference="gm9-2t-Nnm"/>
+        <segue reference="y2D-pc-GhF"/>
+        <segue reference="ObG-6r-NUw"/>
     </inferredMetricsTieBreakers>
 </document>
