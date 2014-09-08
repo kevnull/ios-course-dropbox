@@ -42,6 +42,16 @@
                                     <segue destination="8PS-zC-YeH" kind="push" id="DHe-dF-DxK"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Pjj-e1-1qL">
+                                <rect key="frame" x="122" y="443" width="76" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="PAB-zm-Z6L" kind="modal" modalTransitionStyle="crossDissolve" id="2KA-us-m6X"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -1054,7 +1064,7 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="gm9-2t-Nnm"/>
-        <segue reference="y2D-pc-GhF"/>
+        <segue reference="2KA-us-m6X"/>
         <segue reference="ObG-6r-NUw"/>
     </inferredMetricsTieBreakers>
 </document>
